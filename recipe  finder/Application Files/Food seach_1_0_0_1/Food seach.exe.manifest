@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Food seach.exe" version="1.0.0.1" publicKeyToken="7543f6b84d51b241" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Food seach" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Food seach.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Food seach.exe" size="103904">
+      <assemblyIdentity name="Food seach" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>OxLbp/sxm4uJpZUhZF8kB4PUW1DcgOVTJdkwBmHhGQQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Newtonsoft.Json.dll" size="711952">
+      <assemblyIdentity name="Newtonsoft.Json" version="13.0.0.0" publicKeyToken="30AD4FE6B2A6AEED" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>4eJ697B+7t9c5xqSVfBCKBam/FhJpIPGcU4bRyBE+p0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Food seach.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=ITSKP-ODENSE\Luca5393" issuerKeyHash="cff98be50f646740cf692f6b5be1c1b9e3fddb98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>T4XD7c4Mz9R1uwt9IHFvnZV+SWFgvQcSxu5kn7nDH3M=</DigestValue></Reference></SignedInfo><SignatureValue>Ogw0zSyGBvM6OimwOwFfj7HnTbGzLGCVjodDToBR1TATQx4v2ExKfMmNZU9SKISDHC7jOsa5W/vByiHuslbCeuHD13/+UCkehJYCz02kOrBDoiP/FPr7v8GT3VaQAYiHSXhShDVhHekNyOP5ad3yptLNeBtavt2h+/gMxn8jdCM=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>97hD5Bw7PiuF/Mgw7uBNKfp3EdYJ6mdjJzEh4JZqMpsdfP+8njy4NOGVtHU6KSwQyNHizQqe8sLoWLptTDaeTqwW+DCDNO8UIP9+qIMSZwGWv3Sncc5/+8nJu2esMd9p6+v2dFJVxhgdz9RaGDq67+KJTFfjbstaj5yaELbs2tk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="731fc3b99f64eec61207bd6061497e959d6f71207d0bbb75d4cf0cceedc3854f" Description="" Url=""><as:assemblyIdentity name="Food seach.exe" version="1.0.0.1" publicKeyToken="7543f6b84d51b241" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ITSKP-ODENSE\Luca5393</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>I9fCLF19XQ81Xn/Mhwyvim/DhXbGeGa5a+bxxfJhcoY=</DigestValue></Reference></SignedInfo><SignatureValue>TACcPOWusze1XR8yuTAjIX/7PcdjtJh5ehQs3WSL8iryn2S7rxFAM3ZOrzdcABDoaclgHJ7dMvF+DjZiWqVIuN+J8c8znRkDt+t8eiGPQqcZXgGsm/wIIWD/NWNI1H90kgyZ+6KKPz7dQXy2YwQPqyBDAy8pUcPqrHo9B/B3fvk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>97hD5Bw7PiuF/Mgw7uBNKfp3EdYJ6mdjJzEh4JZqMpsdfP+8njy4NOGVtHU6KSwQyNHizQqe8sLoWLptTDaeTqwW+DCDNO8UIP9+qIMSZwGWv3Sncc5/+8nJu2esMd9p6+v2dFJVxhgdz9RaGDq67+KJTFfjbstaj5yaELbs2tk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQTYYziOgi96JMZKGsHg3MrTANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioASQBUAFMASwBQAC0ATwBEAEUATgBTAEUAXABMAHUAYwBhADUAMwA5ADMwHhcNMjMxMDA1MTA1MzAxWhcNMjQxMDA0MTY1MzAxWjA1MTMwMQYDVQQDHioASQBUAFMASwBQAC0ATwBEAEUATgBTAEUAXABMAHUAYwBhADUAMwA5ADMwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPe4Q+QcOz4rhfzIMO7gTSn6dxHWCepnYycxIeCWajKbHXz/vJ48uDThlbR1OiksEMjR4s0KnvLC6Fi6bUw2nk6sFvgwgzTvFCD/fqiDEmcBlr90p3HOf/vJybtnrDHfaevr9nRSVcYYHc/UWhg6uu/iiUxX427LWo+cmhC27NrZAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAgRSJaO8iL3LqnidKKc5uTOmIJEleAcuxSRptzu3A3+JsRrwkhPZbK3cV+3XhqAConfLFFO/xT5TyphS0Xd3W3XlFLpOJ37TuIxQDp/ruNnHkOYPjI0jgXE3hLrHXtPL5lVHUkvlrRIgUliKGDfL7LrvtwjQWFVn+JGvVJZdXMco=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
