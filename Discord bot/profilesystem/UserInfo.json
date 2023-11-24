@@ -1,0 +1,74 @@
+{
+  "members": [
+    {
+      "Username": "marcusthegamer",
+      "Coins": 0,
+      "avatarurl": "https://cdn.discordapp.com/avatars/365178369261699073/f588eb3ec05aad8e85678e9d3c84ac56.png?size=1024"
+    },
+    {
+      "Username": "lolgaming_1316",
+      "Coins": 5000,
+      "avatarurl": "https://cdn.discordapp.com/avatars/581354412727861270/19705402f6e1cebf79da2a366d3f1c24.png?size=1024"
+    },
+    {
+      "Username": "lucasvhp",
+      "Coins": 6208370,
+      "avatarurl": "https://cdn.discordapp.com/avatars/384367844311433217/aea666347a6741f9ff28e7bcb0c02622.png?size=1024"
+    }
+  ],
+  "loans": [],
+  "company": [
+    {
+      "owner": {
+        "Username": "lucasvhp",
+        "Coins": 1000000,
+        "avatarurl": "https://cdn.discordapp.com/avatars/384367844311433217/aea666347a6741f9ff28e7bcb0c02622.png?size=1024"
+      },
+      "coingeneration": 375000,
+      "coingenerationupgrade": 0,
+      "workers": 11,
+      "operatingcost": 150000,
+      "operationupgrades": 0,
+      "bustype": "Fitness Center"
+    },
+    {
+      "owner": {
+        "Username": "lucasvhp",
+        "Coins": 839904,
+        "avatarurl": "https://cdn.discordapp.com/avatars/384367844311433217/aea666347a6741f9ff28e7bcb0c02622.png?size=1024"
+      },
+      "coingeneration": 4652,
+      "coingenerationupgrade": 10,
+      "workers": 11,
+      "operatingcost": 119,
+      "operationupgrades": 10,
+      "bustype": "Hotdog stand"
+    },
+    {
+      "owner": {
+        "Username": "lucasvhp",
+        "Coins": 802765,
+        "avatarurl": "https://cdn.discordapp.com/avatars/384367844311433217/aea666347a6741f9ff28e7bcb0c02622.png?size=1024"
+      },
+      "coingeneration": 46564,
+      "coingenerationupgrade": 10,
+      "workers": 11,
+      "operatingcost": 1198,
+      "operationupgrades": 10,
+      "bustype": "Food Truck"
+    },
+    {
+      "owner": {
+        "Username": "lucasvhp",
+        "Coins": 416698,
+        "avatarurl": "https://cdn.discordapp.com/avatars/384367844311433217/aea666347a6741f9ff28e7bcb0c02622.png?size=1024"
+      },
+      "coingeneration": 25000,
+      "coingenerationupgrade": 0,
+      "workers": 11,
+      "operatingcost": 7738,
+      "operationupgrades": 5,
+      "bustype": "Coffee Shop"
+    }
+  ]
+}

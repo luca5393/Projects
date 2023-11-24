@@ -1,0 +1,26 @@
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Discord bot.exe
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Discord bot.deps.json
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Discord bot.runtimeconfig.json
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Discord bot.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Discord bot.pdb
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.csproj.AssemblyReference.cache
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.AssemblyInfoInputs.cache
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.AssemblyInfo.cs
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.csproj.CoreCompileInputs.cache
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.csproj.CopyComplete
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\refint\Discord bot.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.pdb
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\Discord bot.genruntimeconfig.cache
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\obj\Debug\net6.0\ref\Discord bot.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\ConcurrentCollections.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\DSharpPlus.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\DSharpPlus.CommandsNext.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\DSharpPlus.Interactivity.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\System.Collections.Immutable.dll
+C:\Users\luca5393\source\repos\Discord bot\Discord bot\bin\Debug\net6.0\DSharpPlus.SlashCommands.dll
