@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header id="header">
+  <h1>Lucas's Projekter</h1>
+</header>
+
+<div class="container" id="projects-container">
+  <div class="project" onclick="showProjectDetails('KaosTek')">
+    <h2>KaosTek</h2>
+    <p>Lave en ny kundedatabase</p>
+  </div>
+  
+  <div class="project" onclick="showProjectDetails('Kajakklubben')">
+    <h2>Kajakklubben</h2>
+    <p>Lave digitalisering af kajakklubbens opslagstavle</p>
+  </div>
+</div>
+
+<div class="container" id="details-container" style="display: none;">
+  <button class="back-btn" onclick="goBack()">Back</button>
+  <h2 id="project-title"></h2>
+  <p id="project-details"></p>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
