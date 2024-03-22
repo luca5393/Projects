@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kajakklubben Details</title>
+  <link rel="stylesheet" href="styles/projects.css">
+</head>
+<body>
+
+<header>
+  <h1>Kajakklubben Details</h1>
+</header>
+
+<a class="back-btn" href="../index.html">Back</a>
+
+<main class="container">
+    <article class="project-details">
+      <img src="images/kajakklubben.png" alt="Kajakklubben Image">
+      <p>SQL Queries:</p>
+      <pre><code>-- SELECT * FROM arrangementer 
+WHERE sted = 'Klubben' AND kategori = (SELECT id FROM kategori WHERE kategori = 'Fest');
+      
+SELECT arrangementer.*, kategori.kategori 
+FROM arrangementer 
+INNER JOIN kategori ON arrangementer.kategori = kategori.id 
+WHERE DATEADD(MINUTE, varighed, tidspunkt) < GETDATE()
+ORDER BY kategori.kategori;
+      
+UPDATE nyheder 
+SET er_godkendt = 1 
+WHERE er_godkendt = 0;</code></pre>
+      <a href="zips/Digitalisering af kajakklubbens opslagstavle.zip" download>Download Project Files</a>
+    </article>
+</main>  
+
+</body>
+</html>

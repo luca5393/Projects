@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KaosTek Details</title>
+  <link rel="stylesheet" href="styles/projects.css">
+</head>
+<body>
+
+<header>
+  <h1>KaosTek Details</h1>
+</header>
+
+<a class="back-btn" href="../index.html">Back</a>
+
+<main class="container">
+    <article class="project-details">
+      <img src="images/kaostek.png" alt="KaosTek Image">
+      <p>SQL:</p>
+      <pre><code>SELECT 
+        p.id AS person_id,
+        CONCAT(p.fname, ' ', p.lname) AS person_name,
+        COUNT(DISTINCT o.id) AS order_count
+    FROM 
+        people p
+    LEFT JOIN 
+        orders o ON p.id = o.person
+    GROUP BY 
+        p.id, p.fname, p.lname;
+      </code></pre>
+      <a href="zips/KaosTek.zip" download>Download Project Files</a>
+    </article>
+</main>  
+
+</body>
+</html>

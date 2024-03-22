@@ -8,27 +8,21 @@
 </head>
 <body>
 
-<header id="header">
+<header>
   <h1>Lucas's Projekter</h1>
 </header>
 
-<div class="container" id="projects-container">
-  <div class="project" onclick="showProjectDetails('KaosTek')">
+<main id="projects-container">
+  <article class="project" onclick="navigateToProject('kaostek.html', this)">
     <h2>KaosTek</h2>
     <p>Lave en ny kundedatabase</p>
-  </div>
+  </article>
   
-  <div class="project" onclick="showProjectDetails('Kajakklubben')">
+  <article class="project" onclick="navigateToProject('kajakklubben.html', this)">
     <h2>Kajakklubben</h2>
     <p>Lave digitalisering af kajakklubbens opslagstavle</p>
-  </div>
-</div>
-
-<div class="container" id="details-container" style="display: none;">
-  <button class="back-btn" onclick="goBack()">Back</button>
-  <h2 id="project-title"></h2>
-  <p id="project-details"></p>
-</div>
+  </article>
+</main>
 
 <script src="main.js"></script>
 </body>
